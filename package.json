@@ -1,11 +1,11 @@
 {
-  "name": "template-next-app-tailwind",
+  "name": "remotion-video",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Mohit Yadav",
-    "email": "mohit@mohitya.dev",
-    "url": "https://mohitya.dev"
+    "name": "Nauman Mustafa",
+    "email": "hi@movid.pro",
+    "url": "https://movid.pro"
   },
   "scripts": {
     "dev": "next dev",
@@ -20,7 +20,6 @@
     "@remotion/bundler": "^4.0.0",
     "@remotion/cli": "^4.0.0",
     "@remotion/google-fonts": "^4.0.0",
-    "@remotion/lambda": "^4.0.0",
     "@remotion/paths": "^4.0.0",
     "@remotion/player": "^4.0.0",
     "@remotion/shapes": "^4.0.0",
