@@ -17,6 +17,7 @@ const Home: NextPage = () => {
     <div className="w-screen h-screen bg-black flex items-center justify-center">
       <div className="w-full h-full relative">
         <Player
+          acknowledgeRemotionLicense
           component={Main}
           inputProps={defaultMyCompProps}
           durationInFrames={DURATION_IN_FRAMES}
