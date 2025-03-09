@@ -30,7 +30,8 @@ const renderSpecificFrames = async (compositionId: string, serveUrl: string, out
     const totalFrames = composition.durationInFrames;
     const framesToRender = calculateFramesToRender(totalFrames, n);
 
-    for (const [i, frame] of framesToRender.entries()) {
+    for (let i = 0; i < framesToRender.length; i++) {
+        const frame = framesToRender[i];
         await renderStill({
             composition,
             serveUrl,
